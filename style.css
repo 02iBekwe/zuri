@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(0, 0%, 95%);
+    font-family: 'Poppins';
+}
+main{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 95%);
+}
+.container{
+    display: flex;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 14px;
+    font-weight: 650;
+    letter-spacing: 1.7px;
+    padding-top: 25px;
+    padding-bottom: 65px;
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 10px 0px 0px 10px;
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.card3{
+    background-color:  hsl(179, 100%, 13%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 0px 10px 10px 0px;
+}
+img{
+    padding-bottom: 30px;
+}
+.pill-1{
+    background: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 13px 30px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'poppins';
+    cursor: pointer;
+    outline: none;
+    color: hsl(31, 77%, 52%);
+    }
+    .pill-2{
+        background: hsl(0, 0%, 95%);
+        text-decoration: none;
+        border: 2px solid hsl(0, 0%, 95%);
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 13px 30px;
+        color: hsl(0, 0%, 95%);
+        font-family: 'poppins';
+        cursor: pointer;
+        outline: none;
+        color: hsl(184, 100%, 22%);
+    }
+    .pill-3{
+        background: hsl(0, 0%, 95%);
+        text-decoration: none;
+        border: 2px solid hsl(0, 0%, 95%);
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 13px 30px;
+        color: hsl(0, 0%, 95%);
+        font-family: 'poppins';
+        cursor: pointer;
+        outline: none;
+        color: hsl(179, 100%, 13%);
+    }
+    .pill-1:hover{
+        background: transparent;
+        color: hsl(0, 0%, 95%);
+    }
+    .pill-2:hover{
+        background: transparent;
+        color: hsl(0, 0%, 95%);
+    }
+    .pill-3:hover{
+        background: transparent;
+        color: hsl(0, 0%, 95%);
+    }
+        
+    
